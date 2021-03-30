@@ -1,0 +1,249 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecera{
+    background-image: url("https://images.unsplash.com/photo-1526301352057-62f44bf4e826?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=752&q=80");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    min-height: 100vh;
+    
+}
+body { 
+    min-height: 100vh;
+    background-image: linear-gradient(-45deg, #e3ddd9 50%, #05ffde 50%);
+    font-family: 'Merriweather', serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+/* a:hover {
+	text-decoration: underline;
+} */
+
+
+/***************NAVBAR*****************/
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	background: none;
+    box-shadow: none;
+	position: sticky;
+	top: 0;
+    z-index: 2;
+	
+}
+
+.navbar a {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	color: black;
+    font-weight: 900;
+	transition: .3s ease-out all;
+}
+
+.navbar a:hover {
+	background: #0c86b6;
+	color: #fff;
+	text-decoration: none;
+    padding: ;
+}
+
+.contenedor {
+	max-width: 1000px;
+	width: 47%;
+	display: flex;
+	
+}
+
+.cabecera span{
+    width: 160px;
+    background: orange;
+    height: 59px;
+    margin-top: 5px;
+    border-radius: 17px;
+}
+
+.cabecera span:hover{
+    background:#0c86b6;
+}
+
+span a:hover{
+    color: white;
+}
+
+.logo img{
+    width: 60px;
+}
+
+.nombre {
+    line-height: 1.5;
+    margin-top: 19px;
+}
+
+.nombre strong{
+    font-weight: 900;
+    color: orange;
+}
+
+
+/* estilos materialize */
+
+.carousel{
+    min-height: 407px;
+}
+.carousel .carousel-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+   
+    width: 500px;
+    height: 500px;
+    
+}
+
+.carousel .carousel-item img{
+    width: 100%;
+    height: 73%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.carousel .indicators .indicator-item{
+    border-radius: 0;
+    transform: rotate(45deg);
+    margin: 0 15px;
+    background: #0bf0b7;
+}
+
+/* * ============================== */
+/* * ============ MAIN ============ */
+/* * ============================== */
+
+main {
+	min-height: 100vh;
+}
+
+main .contenido p {
+	margin-bottom: 20px;
+	line-height: 30px;
+	color: #525151;
+    font-size: 20px;
+}
+
+main .contenido .titulo {
+    font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	padding-top: 40px;
+}
+
+main .contenido .fecha {
+	font-size: 14px;
+	color: #B5B5B5;
+}
+
+.main-contenedor{
+    display: flex;
+    margin: 20px;
+}
+
+/***********CARDS***********************/
+
+h4{
+    color: orange;
+}
+.cards{
+    display: flex;
+    background-color: #ffffff;
+}
+
+.cards .donar, .donacion{
+    margin: 60px;
+    
+    padding: 15px;
+}
+
+.cards img{
+    width: 150px;
+}
+
+.fundacion{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 32px; 
+}
+
+.cards .donar, .donacion{
+    border: 1px solid orange;
+      
+}
+
+.estilo{
+    color: #525151;
+}
+
+/* * ============================== */
+/* * ============ ASIDE =========== */
+/* * ============================== */
+
+aside {
+	min-width: 30%;
+	margin: 40px 20px 20px 0;
+	height: 370px;
+	background: #1D2F3D;
+	padding: 20px;
+	border-radius: 10px;
+	position: sticky;
+	top: 20px;
+   
+}
+
+aside .titulo {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: #f2f2f2;
+}
+
+aside .indice a {
+	display: block;
+	margin-bottom: 10px;
+	color: #f2f2f2;
+    padding-left: 7px;
+    
+}
+
+.indice{
+    height: auto;
+    padding: 10px;
+    background: #1D2F3D;
+    box-shadow: none;
+}
+
+.indice a:hover{
+    background: #0c86b6;
+    border-radius: 7px;
+    
+}
+
+/**************FOOTER************************/
+
+.pie{
+    display: flex;
+    justify-content: space-around;
+    background: #1D2F3D;
+    align-items: center;
+    height: 224px;
+}

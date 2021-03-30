@@ -1,0 +1,123 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'Merriweather', serif;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+/**************NAVBAR**************/
+.navbar {
+    height: 100px;
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+	background: #1D2F3D;
+    box-shadow: none;
+	position: sticky;
+	top: 0;
+   
+	
+}
+
+.navbar a {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	color: white;
+    font-weight: 900;
+	transition: .3s ease-out all;
+}
+
+.navbar .ancla:hover {
+	background: #0c86b6;
+	color: #fff;
+	text-decoration: none;
+}
+
+button{
+    width: 138px;
+    height: 42px;
+    border-radius: 9px;
+    background: orange;
+    font-weight: 600;
+}
+
+button:hover{
+    background: #0c86b6;
+}
+
+.contenedor {
+	max-width: 1000px;
+	width: 47%;
+	display: flex;
+	
+}
+
+
+
+.DonaAhora:hover, a:hover{
+    color: white;
+}
+
+.logo img{
+    width: 50px;
+}
+
+.nombre {
+    line-height: 1.5;
+}
+
+.nombre strong{
+    font-weight: 900;
+    color: orange;
+}
+
+/***************MAIN**********************/
+article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article .caja{
+    width: 300px;
+    padding: 15px;
+    background: gray;
+    height: 300px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.caja a{
+    text-decoration: none;
+    color: white;
+}
+
+.caja a:hover{
+    color: orange;
+}
+
+
+/**************FOOTER********************/
+
+.pie{
+    display: flex;
+    justify-content: space-around;
+    background: #1D2F3D;
+    align-items: center;
+    height: 224px;
+    position: sticky;
+    top: 0;
+}
